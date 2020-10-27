@@ -8,10 +8,11 @@ JUnit Tests
 
 
 1. JUnit_No_VMReset_and_Cancel_Request_for_Soda.java
----------------------------------------------------
+----------------------------------------------------
 Test Description: 
 
 -Do not reset the Vending Machine. 
+
 -Then order a Soda but Cancel the Request when checking out
 
 Test Input Data:
@@ -29,13 +30,14 @@ Expected result:
 -The Product IS NOT dispensed
 
 -Coins Returned {quarter, quarter} (total value=50)
----------------------------------------------------------------------------------
 
 2.JUnit_No_VMReset_and_Purchase_Coke_With_ChangeDispensed.java
-
+--------------------------------------------------------------
 Test Description: 
-Do not reset the Vending Machine. 
-Then order a Coke by inserting 2 dimes and 1 quarter (total=45)
+
+-Do not reset the Vending Machine. 
+
+-Then order a Coke by inserting 2 dimes and 1 quarter (total=45)
 
 Test Input Data:
 
