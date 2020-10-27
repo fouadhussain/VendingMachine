@@ -6,7 +6,7 @@ Author: Fouad Hussain
 JUnit Tests
 ------------------------------------------------------------------------------------
 
-
+----------------------------------------------------
 1. JUnit_No_VMReset_and_Cancel_Request_for_Soda.java
 ----------------------------------------------------
 Test Description: 
@@ -62,7 +62,7 @@ Expected result:
 
 
 
-
+----------------------------------------------------
 3. JUnit_No_VMReset_and_Purchase_Pepsi_for_TenCent.java
 ----------------------------------------------------
 Test Description: 
@@ -89,6 +89,7 @@ Expected result:
 
 -Coins Returned {nickel, penny, penny, penny, penny, penny} i.e. 10 cent
 
+----------------------------------------------------
 4. JUnit_Reset_Vending_Machine.java
 ----------------------------------------------------
 Test Description: 
@@ -104,6 +105,7 @@ Test Input Data:
 Expected result:
 -The Vending Machine is Successfully reset
 
+----------------------------------------------------
 4. JUnit_Reset_Vending_Machine.java
 ----------------------------------------------------
 Test Description: 
@@ -119,6 +121,7 @@ Test Input Data:
 Expected result:
 -The Vending Machine is NOT Successfully reset
 
+----------------------------------------------------
 5. JUnit_Reset_VM_and_Purchase_Soda_with_Exact_Money.java
 ----------------------------------------------------
 Test Description: 
