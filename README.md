@@ -103,6 +103,7 @@ Test Input Data:
 -Input the value="vendingADMIN" when prompted for password
 
 Expected result:
+
 -The Vending Machine is Successfully reset
 
 ----------------------------------------------------
@@ -119,6 +120,7 @@ Test Input Data:
 -Input the value="ADMIN" when prompted for password
 
 Expected result:
+
 -The Vending Machine is NOT Successfully reset
 
 ----------------------------------------------------
