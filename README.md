@@ -6,11 +6,12 @@ Project Notes:
 
 -JUnit 5 and JavaSE_14
 
--Src has 2 sub dir - scripts (JUnit) and VMachine (frameowrk and main program)
+-Src has 2 sub dir - scripts (JUnit) and VMachine (framework and main program)
 
 -You can run the program by choosing a JUnit test to run (use below notes for guidance)
 
 - You can run the main program from VMachine package - RunVendingMachine.java
+
 
 ------------------------------------------------------------------------------------
 JUnit Tests
