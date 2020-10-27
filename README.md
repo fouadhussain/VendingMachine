@@ -4,7 +4,7 @@ Author: Fouad Hussain
 
 
 JUnit Tests
-
+------------------------------------------------------------------------------------
 1.JUnit_No_VMReset_and_Cancel_Request_for_Soda.java
 
 Test Description: 
@@ -26,9 +26,7 @@ Expected result:
 -The Product IS NOT dispensed
 
 -Coins Returned {quarter, quarter} (total value=50)
-
-
-
+---------------------------------------------------------------------------------
 
 2.JUnit_No_VMReset_and_Purchase_Coke_With_ChangeDispensed.java
 
