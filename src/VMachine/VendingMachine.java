@@ -79,7 +79,7 @@ public class VendingMachine {
 		
 		//return money entered into vending machine
 		int x=0;
-		System.out.println("\nRequest cancelled - Returning Money: ");
+		System.out.println("\nRequest cancelled, NO product dispensed - Returning Your Money: ");
 		while (coinsentered[x] !=null) {
 			System.out.println(coinsentered[x]);
 			
