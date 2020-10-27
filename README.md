@@ -47,27 +47,27 @@ Expected result:
 ----------------------------------------------------
 Test Description: 
 
--Do not reset the Vending Machine. 
+- Do not reset the Vending Machine. 
 
--Then order a Coke by inserting 2 dimes and 1 quarter (total=45)
+- Then order a Coke by inserting 2 dimes and 1 quarter (total=45)
 
 Test Input Data:
 
--Input the value = "n" when prompted to reset Vending Machine
+- Input the value = "n" when prompted to reset Vending Machine
 
--Input the value="1" when prompted what product to purchase (coke)
+- Input the value="1" when prompted what product to purchase (coke)
 
--Input the values {dime, dime, quarter} --> i.e. enter 3 coins only
+- Input the values {dime, dime, quarter} --> i.e. enter 3 coins only
 
--Input the value = "n" when prompted to cancel the request
+- Input the value = "n" when prompted to cancel the request
 
 Expected result:
 
--The Product IS dispensed
+- The Product IS dispensed
 
--Total Change Given = 20cent
+- Total Change Given = 20cent
 
--Coins Returned {dime; dime} i.e. 20 cent
+- Coins Returned {dime; dime} i.e. 20 cent
 
 
 
@@ -77,40 +77,40 @@ Expected result:
 ----------------------------------------------------
 Test Description: 
 
--Do not reset the Vending Machine. 
+- Do not reset the Vending Machine. 
 
--Then order a Pepsi by inserting 1 nickel and 5 penny (total=10)
+- Then order a Pepsi by inserting 1 nickel and 5 penny (total=10)
 
 Test Input Data:
 
--Input the value = "n" when prompted to reset Vending Machine
+- Input the value = "n" when prompted to reset Vending Machine
 
--Input the value="2" when prompted what product to purchase (pepsi)
+- Input the value="2" when prompted what product to purchase (pepsi)
 
--Input the values {nickel, penny, penny, penny, penny, penny} --> i.e. enter 6 coins only
+- Input the values {nickel, penny, penny, penny, penny, penny} --> i.e. enter 6 coins only
 
--Input the value = "n" when prompted to cancel the request
+- Input the value = "n" when prompted to cancel the request
 
 Expected result:
 
--The Product IS NOT dispensed
+- The Product IS NOT dispensed
 
--Request is Cancelled
+- Request is Cancelled
 
--Coins Returned {nickel, penny, penny, penny, penny, penny} i.e. 10 cent
+- Coins Returned {nickel, penny, penny, penny, penny, penny} i.e. 10 cent
 
 ----------------------------------------------------
 4. JUnit_Reset_Vending_Machine.java
 ----------------------------------------------------
 Test Description: 
 
--Reset the Vending Machine successfully. 
+- Reset the Vending Machine successfully. 
 
 Test Input Data:
 
--Input the value = "y" when prompted to reset Vending Machine
+- Input the value = "y" when prompted to reset Vending Machine
 
--Input the value="vendingADMIN" when prompted for password
+- Input the value="vendingADMIN" when prompted for password
 
 Expected result:
 
@@ -121,41 +121,41 @@ Expected result:
 ----------------------------------------------------
 Test Description: 
 
--Reset the Vending Machine Unsuccessfully. 
+- Reset the Vending Machine Unsuccessfully. 
 
 Test Input Data:
 
--Input the value = "y" when prompted to reset Vending Machine
+- Input the value = "y" when prompted to reset Vending Machine
 
--Input the value="ADMIN" when prompted for password
+- Input the value="ADMIN" when prompted for password
 
 Expected result:
 
--The Vending Machine is NOT Successfully reset
+- The Vending Machine is NOT Successfully reset
 
 ----------------------------------------------------
 5. JUnit_Reset_VM_and_Purchase_Soda_with_Exact_Money.java
 ----------------------------------------------------
 Test Description: 
 
--Reset the Vending Machine Successfully. 
+- Reset the Vending Machine Successfully. 
 
--Then order a Soda by inserting {1xquarter, 3xNickel, 5xpenny} (total=45)
+- Then order a Soda by inserting {1xquarter, 3xNickel, 5xpenny} (total=45)
 
 Test Input Data:
 
--Input the value = "y" when prompted to reset Vending Machine
+- Input the value = "y" when prompted to reset Vending Machine
 
--Input the value="vendingADMIN" when prompted for password
+- Input the value="vendingADMIN" when prompted for password
 
--Input the value="3" when prompted what product to purchase (soda)
+- Input the value="3" when prompted what product to purchase (soda)
 
--Input the values {quarter; nickel; nickel; nickel; penny; penny; penny; penny; penny} --> i.e. enter 9 coins only
+- Input the values {quarter; nickel; nickel; nickel; penny; penny; penny; penny; penny} --> i.e. enter 9 coins only
 
--Input the value = "n" when prompted to cancel the request
+- Input the value = "n" when prompted to cancel the request
 
 Expected result:
 
--The Product IS dispensed
+- The Product IS dispensed
 
--No Change Returned
+- No Change Returned
