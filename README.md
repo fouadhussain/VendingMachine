@@ -21,6 +21,8 @@ Test Input Data:
 -Input the value = "y" when prompted to cancel the request
 
 Expected result:
-Product IS NOT dispensed
-Two coins are returned of type Quarter (total value=50)
+
+-The Product IS NOT dispensed
+
+-Two coins are returned of type Quarter (total value=50)
 
