@@ -3,7 +3,6 @@ Code Challenge - Module 1 - Vending Machine
 Author: Fouad Hussain
 
 Project Notes: 
-
 - JUnit 5 and JavaSE_14
 
 - Src has 2 sub dir - scripts (JUnit) and VMachine (framework and main program)
@@ -22,25 +21,25 @@ JUnit Tests
 ----------------------------------------------------
 Test Description: 
 
--Do not reset the Vending Machine. 
+- Do not reset the Vending Machine. 
 
--Then order a Soda but Cancel the Request when checking out
+- Then order a Soda but Cancel the Request when checking out
 
 Test Input Data:
 
--Input the value = "n" when prompted to reset Vending Machine
+- Input the value = "n" when prompted to reset Vending Machine
 
--Input the value="3" when prompted what product to purchase (soda)
+- Input the value="3" when prompted what product to purchase (soda)
 
--Input the values {quarter, quarter} --> i.e. enter 2 coins only of type quarter
+- Input the values {quarter, quarter} --> i.e. enter 2 coins only of type quarter
 
--Input the value = "y" when prompted to cancel the request
+- Input the value = "y" when prompted to cancel the request
 
 Expected result:
 
--The Product IS NOT dispensed
+- The Product IS NOT dispensed
 
--Coins Returned {quarter, quarter} (total value=50)
+- Coins Returned {quarter, quarter} (total value=50)
 
 
 ----------------------------------------------------
