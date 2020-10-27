@@ -89,7 +89,7 @@ Expected result:
 
 -Coins Returned {nickel, penny, penny, penny, penny, penny} i.e. 10 cent
 
-4a. JUnit_Reset_Vending_Machine.java
+4. JUnit_Reset_Vending_Machine.java
 ----------------------------------------------------
 Test Description: 
 
@@ -104,8 +104,7 @@ Test Input Data:
 Expected result:
 -The Vending Machine is Successfully reset
 
-
-4b. JUnit_Reset_Vending_Machine.java
+4. JUnit_Reset_Vending_Machine.java
 ----------------------------------------------------
 Test Description: 
 
