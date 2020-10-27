@@ -32,6 +32,7 @@ Expected result:
 -Coins Returned {quarter, quarter} (total value=50)
 
 
+
 2. JUnit_No_VMReset_and_Purchase_Coke_With_ChangeDispensed.java
 ----------------------------------------------------
 Test Description: 
@@ -44,7 +45,7 @@ Test Input Data:
 
 -Input the value = "n" when prompted to reset Vending Machine
 
--Input the value="1" when prompted what product to purchase (soda)
+-Input the value="1" when prompted what product to purchase (coke)
 
 -Input the values {dime, dime, quarter} --> i.e. enter 3 coins only
 
@@ -58,3 +59,32 @@ Expected result:
 
 -Coins Returned {dime; dime} i.e. 20 cent
 
+
+
+
+
+3. JUnit_No_VMReset_and_Purchase_Pepsi_for_TenCent.java
+----------------------------------------------------
+Test Description: 
+
+-Do not reset the Vending Machine. 
+
+-Then order a Pepsi by inserting 1 nickel and 5 penny (total=10)
+
+Test Input Data:
+
+-Input the value = "n" when prompted to reset Vending Machine
+
+-Input the value="2" when prompted what product to purchase (pepsi)
+
+-Input the values {nickel, penny, penny, penny, penny, penny} --> i.e. enter 6 coins only
+
+-Input the value = "n" when prompted to cancel the request
+
+Expected result:
+
+-The Product IS NOT dispensed
+
+-Request is Cancelled due to invalid amount
+
+-Coins Returned {nickel, penny, penny, penny, penny, penny} i.e. 10 cent
