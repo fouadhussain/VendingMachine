@@ -85,6 +85,65 @@ Expected result:
 
 -The Product IS NOT dispensed
 
--Request is Cancelled due to invalid amount
+-Request is Cancelled
 
 -Coins Returned {nickel, penny, penny, penny, penny, penny} i.e. 10 cent
+
+
+
+4a. JUnit_Reset_Vending_Machine.java
+----------------------------------------------------
+Test Description: 
+
+-Reset the Vending Machine successfully. 
+
+Test Input Data:
+
+-Input the value = "y" when prompted to reset Vending Machine
+
+-Input the value="vendingADMIN" when prompted for password
+
+Expected result:
+-The Vending Machine is Successfully reset
+
+
+4b. JUnit_Reset_Vending_Machine.java
+----------------------------------------------------
+Test Description: 
+
+-Reset the Vending Machine Unsuccessfully. 
+
+Test Input Data:
+
+-Input the value = "y" when prompted to reset Vending Machine
+
+-Input the value="ADMIN" when prompted for password
+
+Expected result:
+-The Vending Machine is NOT Successfully reset
+
+5. JUnit_Reset_VM_and_Purchase_Soda_with_Exact_Money.java
+----------------------------------------------------
+Test Description: 
+
+-Reset the Vending Machine Successfully. 
+
+-Then order a Soda by inserting {1xquarter, 3xNickel, 5xpenny} (total=45)
+
+Test Input Data:
+
+-Input the value = "y" when prompted to reset Vending Machine
+
+-Input the value="vendingADMIN" when prompted for password
+
+-Input the value="3" when prompted what product to purchase (soda)
+
+-Input the values {quarter; nickel; nickel; nickel; penny; penny; penny; penny; penny} --> i.e. enter 9 coins only
+
+-Input the value = "n" when prompted to cancel the request
+
+Expected result:
+
+-The Product IS dispensed
+
+-No Change Returned
