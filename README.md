@@ -28,6 +28,8 @@ Expected result:
 -Coins Returned {quarter, quarter} (total value=50)
 
 
+
+
 2.JUnit_No_VMReset_and_Purchase_Coke_With_ChangeDispensed.java
 
 Test Description: 
