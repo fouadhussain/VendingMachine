@@ -11,10 +11,14 @@ Do not reset the Vending Machine.
 Then order a Soda but Cancel the Request when checking out
 
 Test Input Data:
-Input the value = "n" when prompted to reset Vending Machine
-Input the value="3" when prompted what product to purchase (soda)
-Input the values {quarter, quarter} --> i.e. enter 2 coins only of type quarter
-Input the value = "y" when prompted to cancel the request
+
+-Input the value = "n" when prompted to reset Vending Machine
+
+-Input the value="3" when prompted what product to purchase (soda)
+
+-Input the values {quarter, quarter} --> i.e. enter 2 coins only of type quarter
+
+-Input the value = "y" when prompted to cancel the request
 
 Expected result:
 Product IS NOT dispensed
