@@ -89,8 +89,6 @@ Expected result:
 
 -Coins Returned {nickel, penny, penny, penny, penny, penny} i.e. 10 cent
 
-
-
 4a. JUnit_Reset_Vending_Machine.java
 ----------------------------------------------------
 Test Description: 
